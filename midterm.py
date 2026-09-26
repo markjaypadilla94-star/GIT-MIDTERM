@@ -40,7 +40,6 @@ def view_pets(pet_list):
     
  
     print("--- Pet List ---")
-    for index, pet in enumerate(pet_list, start=1):
         print(
 
 
