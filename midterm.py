@@ -34,9 +34,15 @@ def add_pet(pet_list):
     
 
 def view_pets(pet_list):
+    if not pet_list:
+        print("No pets available to view.")
+        return
+    
+ 
+    print("--- Pet List ---")
+    for index, pet in enumerate(pet_list, start=1):
+        print(
 
-   
-    pass
 
 def count_available_adopted(pet_list):
     # loop through, count Available vs Adopted, return both
@@ -59,7 +65,6 @@ def main():
         # set running = False when the user picks Exit
 
 
-else = false
 
 
 main()
